@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="함수 포인터 활용.c">
+    <ClCompile Include="case switch.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

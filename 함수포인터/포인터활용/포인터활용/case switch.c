@@ -6,7 +6,7 @@ int add(int a, int b) {
 	return a + b;
 }
 
-int sub(int a, int b) 
+int sub(int a, int b)
 {
 	return a - b;
 }
@@ -32,7 +32,7 @@ int main()
 	printf("함수 번호와 계산할 값을 입력하세요:\n");
 
 	scanf("%d %d %d", &funcNumber, &num1, &num2);
-	
+
 	switch (funcNumber)
 	{
 	case 0:
@@ -51,5 +51,5 @@ int main()
 
 	}
 
-	printf("%d\n",fp(num1,num2));
+	printf("%d\n", fp(num1, num2));
 }
