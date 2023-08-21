@@ -27,7 +27,7 @@ int main()
 
 	int funcNumber;
 	int num1, num2;
-	int (*fp[4])(int, int);
+	int (*fp[4])(int, int); //case swtich와 다르게 NULL을 쓰지 않음.
 
 	fp[0] = add;
 	fp[1] = sub;
